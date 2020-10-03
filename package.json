@@ -1,0 +1,28 @@
+{
+  "name": "spotify-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/spotify-clone-dywn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "socket.io": "^2.3.0",
+    "spotify-connect-ws": "^0.1.1",
+    "spotify-web-api-node": "^4.0.0"
+  }
+}
